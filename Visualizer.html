@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sleek Music Visualizer</title>
+        <style media="screen">
+            body {
+                margin: 0;
+                overflow: hidden;
+                user-select: none;
+                /* background-color: black; */
+            }
+
+            #track-container {
+                color: white;
+                bottom: 8%;
+                right: -3%;
+                z-index: 1;
+                position: fixed;
+                /* justify-content: center; */
+                text-align: center;
+                word-wrap: break-word;
+                width: 100%;
+            }
+
+            #albumart {
+                top: 5.2%;
+                right: 2px;
+                position: fixed;
+                /* text-align: justify; */
+                width: 46.23%;
+            }
+
+            /*#track-artist {
+			top: 71%;
+			right: 35%;
+			position: fixed;
+			text-align: justify;
+		} */
+        </style>
+    </head>
+    <body>
+        <!-- <input type="file" onchange="encodeImageFileAsURL(this)" style="position: fixed;"/> -->
+        <canvas id="canvas" width="300" height="300" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+        <canvas id="TopCanvas" width="300" height="300" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+        <div id="track-container">
+            <img id="albumart" alt="" />
+            <h1 id="track-title">Title</h1>
+            <h2 id="track-artist">Artist</h2>
+        </div>
+        <script src="musicback.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "AppVersion": "25.4.2.0",
+  "Version": "1.0.0.0",
+  "Title": "Sleek Music Visualizer",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Description": "A simple and sleek way to show your actively playing music.",
+  "Author": "slenered",
+  "License": "MIT",
+  "Contact": "https://github.com/slenered",
+  "Type": 2,
+  "Source": "Visualizer.html",
+  "Tags": [
+    "Stylistic",
+    "Media",
+    "Sound",
+    "Art"
+  ],
+  "Arguments": null
+}
